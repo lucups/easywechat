@@ -1,0 +1,5 @@
+#!/bin/sh
+
+composer check-style
+composer phpstan
+composer test
