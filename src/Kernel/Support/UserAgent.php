@@ -44,7 +44,7 @@ class UserAgent
         }
 
         if (class_exists(InstalledVersions::class)) {
-            array_unshift($value, 'easywechat-sdk/'.((string) InstalledVersions::getVersion('lucups/easywechat')));
+            array_unshift($value, 'easywechat-sdk/'.((string) InstalledVersions::getVersion('w7corp/easywechat')));
         }
 
         return trim(implode(' ', $value));
