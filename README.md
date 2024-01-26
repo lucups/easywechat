@@ -17,7 +17,7 @@
 ## 安装
 
 ```bash
-composer require w7corp/easywechat
+composer require lucups/easywechat
 ```
 
 ## 使用示例
